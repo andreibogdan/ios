@@ -15,6 +15,7 @@
 		A5EFB7FC1C8DCCDA0064E39D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EFB7FA1C8DCCDA0064E39D /* LaunchScreen.storyboard */; };
 		A5EFB8071C8DCCDA0064E39D /* FourPaneDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EFB8061C8DCCDA0064E39D /* FourPaneDemoTests.m */; };
 		A5EFB8121C8DCCDA0064E39D /* FourPaneDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EFB8111C8DCCDA0064E39D /* FourPaneDemoUITests.m */; };
+		A5EFB8201C8DCF4F0064E39D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5EFB81F1C8DCF4F0064E39D /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A5EFB80D1C8DCCDA0064E39D /* FourPaneDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourPaneDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EFB8111C8DCCDA0064E39D /* FourPaneDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourPaneDemoUITests.m; sourceTree = "<group>"; };
 		A5EFB8131C8DCCDA0064E39D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5EFB81F1C8DCF4F0064E39D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5EFB8201C8DCF4F0064E39D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		A5EFB7E01C8DCCD90064E39D = {
 			isa = PBXGroup;
 			children = (
+				A5EFB81F1C8DCF4F0064E39D /* MapKit.framework */,
 				A5EFB7EB1C8DCCDA0064E39D /* FourPaneDemo */,
 				A5EFB8051C8DCCDA0064E39D /* FourPaneDemoTests */,
 				A5EFB8101C8DCCDA0064E39D /* FourPaneDemoUITests */,

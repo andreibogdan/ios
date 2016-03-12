@@ -22,15 +22,16 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     //initialize web page
-    NSString *webURL = @"https://www.facebook.com/";
+    NSString *webURL = @"https://www.facebook.com/smashmag";
     
     NSMutableURLRequest *request =  [NSMutableURLRequest requestWithURL: [NSURL URLWithString:webURL]];
     
     [self.webView loadRequest:request];
     
     //center the map
-    double latitude = 34.448795;
-    double longitude = -119.6646337;
+    //51.2289281,4.4158724
+    double latitude = 51.2289281;
+    double longitude = 4.4158724;
     
     MKPointAnnotation *wiclAnno = [[MKPointAnnotation alloc] init];
     wiclAnno.coordinate = CLLocationCoordinate2DMake(latitude, longitude);
